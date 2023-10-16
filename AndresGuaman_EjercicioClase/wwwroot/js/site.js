@@ -3,3 +3,12 @@
 
 // Write your JavaScript code.
 
+document.addEventListener('DOMContentLoaded', function () {
+    const cambiarColorBoton = document.getElementById('cambiarColorBoton');
+    const body = document.body;
+
+    cambiarColorBoton.addEventListener('click', function () {
+        // Cambia el fondo del body a un color diferente (por ejemplo, azul)
+        body.style.backgroundColor = 'blue';
+    });
+});
